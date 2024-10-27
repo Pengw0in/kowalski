@@ -214,6 +214,34 @@ Encrypted Message: A randomized substitution of letters</code></pre>
                             <pre><code>**Salted Hash**
 Text: Hello
 Salted Hash: [hashed_value]:[salt_value]</code></pre>
+<h3>3.17 AES Encryption: <code>!aes</code></h3>
+                            <p><strong>Description:</strong> Encrypts the input message using the Advanced Encryption Standard (AES) algorithm.</p>
+                            <p><strong>Usage:</strong> <code>!aes Hello</code></p>
+                            <p><strong>Example Output:</strong></p>
+                            <pre><code>**AES Encryption**
+Text: Hello
+Encrypted Message: b8b36b08e8f4c18c3b5e3a8eec1c7b1a</code></pre>
+
+<h3>3.18 AES Decryption: <code>!aesdecrypt</code></h3>
+                            <p><strong>Description:</strong> Decrypts an AES-encrypted message back to its original form.</p>
+                            <p><strong>Usage:</strong> <code>!aesdecrypt b8b36b08e8f4c18c3b5e3a8eec1c7b1a</code></p>
+                            <p><strong>Example Output:</strong></p>
+                            <pre><code>**AES Decryption**
+Encrypted Message: b8b36b08e8f4c18c3b5e3a8eec1c7b1a
+Decrypted Message: Hello</code></pre>
+
+<h3>3.19 Data Analysis: <code>!analyze</code></h3>
+<p><strong>Description:</strong> Analyzes the input data for patterns, frequencies, or anomalies.</p>
+<p><strong>Usage:</strong> <code>!analyze Hello Hello</code></p>
+<p><strong>Example Output:</strong></p>
+ <pre><code>**Data Analysis**
+Text: Hello Hello
+Analysis: Most frequent word: 'Hello' (occurrences: 2)
+Character Frequencies:
+H: 2
+e: 2
+l: 4
+o: 2</code></pre>     
                         </div>
                     </section>
 
@@ -247,34 +275,6 @@ Base64 Encoding: S2hvb3JacnVvZw==</code></pre>
                                 <li><code>rs</code>: Random Substitution Cipher</li>
                                 <li><code>sh</code>: Salted Hashing</li>
                             </ul>
-<h3>3.17 AES Encryption: <code>!aes</code></h3>
-                            <p><strong>Description:</strong> Encrypts the input message using the Advanced Encryption Standard (AES) algorithm.</p>
-                            <p><strong>Usage:</strong> <code>!aes Hello</code></p>
-                            <p><strong>Example Output:</strong></p>
-                            <pre><code>**AES Encryption**
-Text: Hello
-Encrypted Message: b8b36b08e8f4c18c3b5e3a8eec1c7b1a</code></pre>
-
-<h3>3.18 AES Decryption: <code>!aesdecrypt</code></h3>
-                            <p><strong>Description:</strong> Decrypts an AES-encrypted message back to its original form.</p>
-                            <p><strong>Usage:</strong> <code>!aesdecrypt b8b36b08e8f4c18c3b5e3a8eec1c7b1a</code></p>
-                            <p><strong>Example Output:</strong></p>
-                            <pre><code>**AES Decryption**
-Encrypted Message: b8b36b08e8f4c18c3b5e3a8eec1c7b1a
-Decrypted Message: Hello</code></pre>
-
-<h3>3.19 Data Analysis: <code>!analyze</code></h3>
-                            <p><strong>Description:</strong> Analyzes the input data for patterns, frequencies, or anomalies.</p>
-                            <p><strong>Usage:</strong> <code>!analyze Hello Hello</code></p>
-                            <p><strong>Example Output:</strong></p>
-                            <pre><code>**Data Analysis**
-                            Text: Hello Hello
-                            Analysis: Most frequent word: 'Hello' (occurrences: 2)
-                            Character Frequencies:
-                            H: 1
-                            e: 1
-                            l: 2
-                            o: 1</code></pre>     
                         </div>
                     </section>
 
