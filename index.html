@@ -76,6 +76,9 @@
                                 <li><strong>Hashing (SHA-256):</strong> <code>!hashsha256 &lt;message&gt;</code></li>
                                 <li><strong>Random Substitution Cipher:</strong> <code>!rs &lt;message&gt;</code></li>
                                 <li><strong>Salted Hashing:</strong> <code>!sh &lt;message&gt;</code></li>
+                                <li><strong>AES Encryption :</strong> <code>!aese &lt;message&gt;</code></li>
+                                <li><strong>AES Decryption:</strong> <code>!aesd &lt;message&gt;</code></li>
+                                <li><strong>Text Analysis:</strong> <code>!analysis &lt;message&gt;</code></li>
                             </ul>
                         </div>
                     </section>
@@ -244,6 +247,34 @@ Base64 Encoding: S2hvb3JacnVvZw==</code></pre>
                                 <li><code>rs</code>: Random Substitution Cipher</li>
                                 <li><code>sh</code>: Salted Hashing</li>
                             </ul>
+<h3>3.17 AES Encryption: <code>!aes</code></h3>
+                            <p><strong>Description:</strong> Encrypts the input message using the Advanced Encryption Standard (AES) algorithm.</p>
+                            <p><strong>Usage:</strong> <code>!aes Hello</code></p>
+                            <p><strong>Example Output:</strong></p>
+                            <pre><code>**AES Encryption**
+Text: Hello
+Encrypted Message: b8b36b08e8f4c18c3b5e3a8eec1c7b1a</code></pre>
+
+<h3>3.18 AES Decryption: <code>!aesdecrypt</code></h3>
+                            <p><strong>Description:</strong> Decrypts an AES-encrypted message back to its original form.</p>
+                            <p><strong>Usage:</strong> <code>!aesdecrypt b8b36b08e8f4c18c3b5e3a8eec1c7b1a</code></p>
+                            <p><strong>Example Output:</strong></p>
+                            <pre><code>**AES Decryption**
+Encrypted Message: b8b36b08e8f4c18c3b5e3a8eec1c7b1a
+Decrypted Message: Hello</code></pre>
+
+<h3>3.19 Data Analysis: <code>!analyze</code></h3>
+                            <p><strong>Description:</strong> Analyzes the input data for patterns, frequencies, or anomalies.</p>
+                            <p><strong>Usage:</strong> <code>!analyze Hello Hello</code></p>
+                            <p><strong>Example Output:</strong></p>
+                            <pre><code>**Data Analysis**
+                            Text: Hello Hello
+                            Analysis: Most frequent word: 'Hello' (occurrences: 2)
+                            Character Frequencies:
+                            H: 1
+                            e: 1
+                            l: 2
+                            o: 1</code></pre>     
                         </div>
                     </section>
 
@@ -269,7 +300,7 @@ Base64 Encoding: S2hvb3JacnVvZw==</code></pre>
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:zenlohith@gmail.com" target="_blank">
+                            <a href="mailto:lohithsrikar679@gmail" target="_blank">
                                 <img src="assets/images/email-icon.png" alt="Email" style="width: 24px; height: 24px; vertical-align: middle;">
                                 Email me
                             </a>
