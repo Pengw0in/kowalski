@@ -1,8 +1,10 @@
-<!DOCTYPE HTML>
+</DOCTYPE HTML>
 <!--
     Hyperspace by HTML5 UP
     html5up.net | @ajlkn
     Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+    ///Thanks for the Template!! @ajlkn | html5up.net\\\
 -->
 <html>
     <head>
@@ -37,7 +39,7 @@
                     <section id="intro" class="wrapper style1 fullscreen fade-up">
                         <div class="inner">
                             <h1>Kowalski Documentation</h1>
-                            <p>Welcome to the <strong>Kowalski</strong>! This bot allows users to apply various encryption and hashing methods to their messages, including Caesar Cipher, Base64 encoding, Morse code, and more. Additionally, users can combine multiple methods to create complex, layered encryption, or apply randomized ciphers and hashing with salts for secure data obfuscation.</p>
+                            <p>Welcome to the <strong>Kowalski</strong>/ This bot allows users to apply various encryption and hashing methods to their messages, including Caesar Cipher, Base64 encoding, Morse code, and more. Additionally, users can combine multiple methods to create complex, layered encryption, or apply randomized ciphers and hashing with salts for secure data obfuscation.</p>
                             <p>Below is the complete documentation on how to use each command, along with examples.</p>
                         </div>
                     </section>
@@ -60,25 +62,25 @@
                             <h2>2. Command Overview</h2>
                             <h3>2.1 Encryption and Decryption Commands</h3>
                             <ul>
-                                <li><strong>Morse Code Encryption:</strong> <code>!me &lt;message&gt;</code></li>
-                                <li><strong>Morse Code Decryption:</strong> <code>!md &lt;morse_code&gt;</code></li>
-                                <li><strong>Caesar Cipher Encryption:</strong> <code>!ce &lt;message&gt;</code></li>
-                                <li><strong>Caesar Cipher Decryption:</strong> <code>!cd &lt;encrypted_message&gt;</code></li>
-                                <li><strong>Binary Encryption:</strong> <code>!be &lt;message&gt;</code></li>
-                                <li><strong>Binary Decryption:</strong> <code>!bd &lt;binary_code&gt;</code></li>
-                                <li><strong>Base64 Encryption:</strong> <code>!he &lt;message&gt;</code></li>
-                                <li><strong>Base64 Decryption:</strong> <code>!hd &lt;encoded_message&gt;</code></li>
-                                <li><strong>Vigenère Cipher Encryption:</strong> <code>!ve &lt;key&gt; &lt;message&gt;</code></li>
-                                <li><strong>Vigenère Cipher Decryption:</strong> <code>!vd &lt;key&gt; &lt;encrypted_message&gt;</code></li>
-                                <li><strong>ROT13 Cipher:</strong> <code>!rot13 &lt;message&gt;</code></li>
-                                <li><strong>Reverse Text:</strong> <code>!reverse &lt;message&gt;</code></li>
-                                <li><strong>Hashing (MD5):</strong> <code>!hashmd5 &lt;message&gt;</code></li>
-                                <li><strong>Hashing (SHA-256):</strong> <code>!hashsha256 &lt;message&gt;</code></li>
-                                <li><strong>Random Substitution Cipher:</strong> <code>!rs &lt;message&gt;</code></li>
-                                <li><strong>Salted Hashing:</strong> <code>!sh &lt;message&gt;</code></li>
-                                <li><strong>AES Encryption :</strong> <code>!aese &lt;message&gt;</code></li>
-                                <li><strong>AES Decryption:</strong> <code>!aesd &lt;message&gt;</code></li>
-                                <li><strong>Text Analysis:</strong> <code>!analysis &lt;message&gt;</code></li>
+                                <li><strong>Morse Code Encryption:</strong> <code>/me &lt;message&gt;</code></li>
+                                <li><strong>Morse Code Decryption:</strong> <code>/md &lt;morse_code&gt;</code></li>
+                                <li><strong>Caesar Cipher Encryption:</strong> <code>/ce &lt;message&gt;</code></li>
+                                <li><strong>Caesar Cipher Decryption:</strong> <code>/cd &lt;encrypted_message&gt;</code></li>
+                                <li><strong>Binary Encryption:</strong> <code>/be &lt;message&gt;</code></li>
+                                <li><strong>Binary Decryption:</strong> <code>/bd &lt;binary_code&gt;</code></li>
+                                <li><strong>Base64 Encryption:</strong> <code>/he &lt;message&gt;</code></li>
+                                <li><strong>Base64 Decryption:</strong> <code>/hd &lt;encoded_message&gt;</code></li>
+                                <li><strong>Vigenère Cipher Encryption:</strong> <code>/ve &lt;key&gt; &lt;message&gt;</code></li>
+                                <li><strong>Vigenère Cipher Decryption:</strong> <code>/vd &lt;key&gt; &lt;encrypted_message&gt;</code></li>
+                                <li><strong>ROT13 Cipher:</strong> <code>/rot13 &lt;message&gt;</code></li>
+                                <li><strong>Reverse Text:</strong> <code>/reverse &lt;message&gt;</code></li>
+                                <li><strong>Hashing (MD5):</strong> <code>/hashmd5 &lt;message&gt;</code></li>
+                                <li><strong>Hashing (SHA-256):</strong> <code>/hashsha256 &lt;message&gt;</code></li>
+                                <li><strong>Random Substitution Cipher:</strong> <code>/rs &lt;message&gt;</code></li>
+                                <li><strong>Salted Hashing:</strong> <code>/sh &lt;message&gt;</code></li>
+                                <li><strong>AES Encryption :</strong> <code>/aese &lt;message&gt;</code></li>
+                                <li><strong>AES Decryption:</strong> <code>/aesd &lt;message&gt;</code></li>
+                                <li><strong>Text Analysis:</strong> <code>/analysis &lt;message&gt;</code></li>
                             </ul>
                         </div>
                     </section>
@@ -87,152 +89,152 @@
                     <section id="command-details" class="wrapper style1 fade-up">
                         <div class="inner">
                             <h2>3. Command Details and Examples</h2>
-                            <h3>3.1 Morse Code Encryption: <code>!me</code></h3>
+                            <h3>3.1 Morse Code Encryption: <code>/me</code></h3>
                             <p><strong>Description:</strong> Converts a message into Morse code, where each letter or number is represented by a unique combination of dots and dashes.</p>
-                            <p><strong>Usage:</strong> <code>!me Hello World</code></p>
+                            <p><strong>Usage:</strong> <code>/me Hello World</code></p>
                             <p><strong>Example Output:</strong></p>
                             <pre><code>**Morse Code Encryption**
 Text: Hello World
 Morse Code: .... . .-.. .-.. --- / .-- --- .-. .-.. -..</code></pre>
 
-                            <h3>3.2 Morse Code Decryption: <code>!md</code></h3>
+                            <h3>3.2 Morse Code Decryption: <code>/md</code></h3>
                             <p><strong>Description:</strong> Decodes Morse code back into readable text.</p>
-                            <p><strong>Usage:</strong> <code>!md .... . .-.. .-.. --- / .-- --- .-. .-.. -..</code></p>
+                            <p><strong>Usage:</strong> <code>/md .... . .-.. .-.. --- / .-- --- .-. .-.. -..</code></p>
                             <p><strong>Example Output:</strong></p>
                             <pre><code>**Morse Code Decryption**
 Morse Code: .... . .-.. .-.. --- / .-- --- .-. .-.. -..
 Decoded Message: Hello World</code></pre>
 
-                            <h3>3.3 Caesar Cipher Encryption: <code>!ce</code></h3>
+                            <h3>3.3 Caesar Cipher Encryption: <code>/ce</code></h3>
                             <p><strong>Description:</strong> Encrypts the message using the Caesar Cipher with a default shift of 3.</p>
-                            <p><strong>Usage:</strong> <code>!ce Hello</code></p>
+                            <p><strong>Usage:</strong> <code>/ce Hello</code></p>
                             <p><strong>Example Output:</strong></p>
                             <pre><code>**Caesar Cipher Encryption**
 Text: Hello
 Encrypted Message: Khoor</code></pre>
 
-                            <h3>3.4 Caesar Cipher Decryption: <code>!cd</code></h3>
+                            <h3>3.4 Caesar Cipher Decryption: <code>/cd</code></h3>
                             <p><strong>Description:</strong> Decrypts a Caesar Cipher encrypted message.</p>
-                            <p><strong>Usage:</strong> <code>!cd Khoor</code></p>
+                            <p><strong>Usage:</strong> <code>/cd Khoor</code></p>
                             <p><strong>Example Output:</strong></p>
                             <pre><code>**Caesar Cipher Decryption**
 Encrypted Message: Khoor
 Decrypted Message: Hello</code></pre>
 
-                            <h3>3.5 Binary Encryption: <code>!be</code></h3>
+                            <h3>3.5 Binary Encryption: <code>/be</code></h3>
                             <p><strong>Description:</strong> Converts the message into binary code.</p>
-                            <p><strong>Usage:</strong> <code>!be Hello</code></p>
+                            <p><strong>Usage:</strong> <code>/be Hello</code></p>
                             <p><strong>Example Output:</strong></p>
                             <pre><code>**Binary Encryption**
 Text: Hello
 Binary Message: 01001000 01100101 01101100 01101100 01101111</code></pre>
 
-                            <h3>3.6 Binary Decryption: <code>!bd</code></h3>
+                            <h3>3.6 Binary Decryption: <code>/bd</code></h3>
                             <p><strong>Description:</strong> Converts binary code back into a readable message.</p>
-                            <p><strong>Usage:</strong> <code>!bd 01001000 01100101 01101100 01101100 01101111</code></p>
+                            <p><strong>Usage:</strong> <code>/bd 01001000 01100101 01101100 01101100 01101111</code></p>
                             <p><strong>Example Output:</strong></p>
                             <pre><code>**Binary Decryption**
 Binary Message: 01001000 01100101 01101100 01101100 01101111
 Text: Hello</code></pre>
 
-                            <h3>3.7 Base64 Encryption: <code>!he</code></h3>
+                            <h3>3.7 Base64 Encryption: <code>/he</code></h3>
                             <p><strong>Description:</strong> Encodes the message in Base64 format.</p>
-                            <p><strong>Usage:</strong> <code>!he Hello</code></p>
+                            <p><strong>Usage:</strong> <code>/he Hello</code></p>
                             <p><strong>Example Output:</strong></p>
                             <pre><code>**Base64 Encryption**
 Text: Hello
 Encoded Message: SGVsbG8=</code></pre>
 
-                            <h3>3.8 Base64 Decryption: <code>!hd</code></h3>
+                            <h3>3.8 Base64 Decryption: <code>/hd</code></h3>
                             <p><strong>Description:</strong> Decodes a Base64 encoded message.</p>
-                            <p><strong>Usage:</strong> <code>!hd SGVsbG8=</code></p>
+                            <p><strong>Usage:</strong> <code>/hd SGVsbG8=</code></p>
                             <p><strong>Example Output:</strong></p>
                             <pre><code>**Base64 Decryption**
 Encoded Message: SGVsbG8=
 Decoded Message: Hello</code></pre>
 
-                            <h3>3.9 Vigenère Cipher Encryption: <code>!ve</code></h3>
+                            <h3>3.9 Vigenère Cipher Encryption: <code>/ve</code></h3>
                             <p><strong>Description:</strong> Encrypts the message using the Vigenère cipher. The user must supply a key for encryption.</p>
-                            <p><strong>Usage:</strong> <code>!ve key Hello</code></p>
+                            <p><strong>Usage:</strong> <code>/ve key Hello</code></p>
                             <p><strong>Example Output:</strong></p>
                             <pre><code>**Vigenère Cipher Encryption**
 Text: Hello
 Encrypted Message: Rijvs</code></pre>
 
-                            <h3>3.10 Vigenère Cipher Decryption: <code>!vd</code></h3>
+                            <h3>3.10 Vigenère Cipher Decryption: <code>/vd</code></h3>
                             <p><strong>Description:</strong> Decrypts a message encrypted using the Vigenère cipher.</p>
-                            <p><strong>Usage:</strong> <code>!vd key Rijvs</code></p>
+                            <p><strong>Usage:</strong> <code>/vd key Rijvs</code></p>
                             <p><strong>Example Output:</strong></p>
                             <pre><code>**Vigenère Cipher Decryption**
 Encrypted Message: Rijvs
 Decrypted Message: Hello</code></pre>
 
-                            <h3>3.11 ROT13 Cipher: <code>!rot13</code></h3>
+                            <h3>3.11 ROT13 Cipher: <code>/rot13</code></h3>
                             <p><strong>Description:</strong> Encrypts or decrypts a message using the ROT13 cipher (shifts the letters by 13 positions).</p>
-                            <p><strong>Usage:</strong> <code>!rot13 Hello</code></p>
+                            <p><strong>Usage:</strong> <code>/rot13 Hello</code></p>
                             <p><strong>Example Output:</strong></p>
                             <pre><code>**ROT13**
 Text: Hello
 Transformed Message: Uryyb</code></pre>
 
-                            <h3>3.12 Reverse Text: <code>!reverse</code></h3>
+                            <h3>3.12 Reverse Text: <code>/reverse</code></h3>
                             <p><strong>Description:</strong> Reverses the given text.</p>
-                            <p><strong>Usage:</strong> <code>!reverse Hello</code></p>
+                            <p><strong>Usage:</strong> <code>/reverse Hello</code></p>
                             <p><strong>Example Output:</strong></p>
                             <pre><code>**Reverse Text**
 Text: Hello
 Reversed Message: olleH</code></pre>
 
-                            <h3>3.13 Hashing (MD5): <code>!hashmd5</code></h3>
+                            <h3>3.13 Hashing (MD5): <code>/hashmd5</code></h3>
                             <p><strong>Description:</strong> Generates an MD5 hash of the input message.</p>
-                            <p><strong>Usage:</strong> <code>!hashmd5 Hello</code></p>
+                            <p><strong>Usage:</strong> <code>/hashmd5 Hello</code></p>
                             <p><strong>Example Output:</strong></p>
                             <pre><code>**MD5 Hash**
 Text: Hello
 MD5 Hash: 8b1a9953c4611296a827abf8c47804d7</code></pre>
 
-                            <h3>3.14 Hashing (SHA-256): <code>!hashsha256</code></h3>
+                            <h3>3.14 Hashing (SHA-256): <code>/hashsha256</code></h3>
                             <p><strong>Description:</strong> Generates a SHA-256 hash of the input message.</p>
-                            <p><strong>Usage:</strong> <code>!hashsha256 Hello</code></p>
+                            <p><strong>Usage:</strong> <code>/hashsha256 Hello</code></p>
                             <p><strong>Example Output:</strong></p>
                             <pre><code>**SHA-256 Hash**
 Text: Hello
 SHA-256 Hash: 185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969</code></pre>
 
-                            <h3>3.15 Random Substitution Cipher: <code>!rs</code></h3>
+                            <h3>3.15 Random Substitution Cipher: <code>/rs</code></h3>
                             <p><strong>Description:</strong> Applies a random substitution cipher to the message, where each letter is replaced by another letter.</p>
-                            <p><strong>Usage:</strong> <code>!rs Hello</code></p>
+                            <p><strong>Usage:</strong> <code>/rs Hello</code></p>
                             <p><strong>Example Output:</strong></p>
                             <pre><code>**Random Substitution Cipher**
 Text: Hello
 Encrypted Message: A randomized substitution of letters</code></pre>
 
-                            <h3>3.16 Salted Hashing: <code>!sh</code></h3>
+                            <h3>3.16 Salted Hashing: <code>/sh</code></h3>
                             <p><strong>Description:</strong> Generates a salted hash by adding a random salt to the message and hashing it using SHA-256.</p>
-                            <p><strong>Usage:</strong> <code>!sh Hello</code></p>
+                            <p><strong>Usage:</strong> <code>/sh Hello</code></p>
                             <p><strong>Example Output:</strong></p>
                             <pre><code>**Salted Hash**
 Text: Hello
 Salted Hash: [hashed_value]:[salt_value]</code></pre>
-<h3>3.17 AES Encryption: <code>!aes</code></h3>
+<h3>3.17 AES Encryption: <code>/aes</code></h3>
                             <p><strong>Description:</strong> Encrypts the input message using the Advanced Encryption Standard (AES) algorithm.</p>
-                            <p><strong>Usage:</strong> <code>!aes Hello</code></p>
+                            <p><strong>Usage:</strong> <code>/aes Hello</code></p>
                             <p><strong>Example Output:</strong></p>
                             <pre><code>**AES Encryption**
 Text: Hello
 Encrypted Message: b8b36b08e8f4c18c3b5e3a8eec1c7b1a</code></pre>
 
-<h3>3.18 AES Decryption: <code>!aesdecrypt</code></h3>
+<h3>3.18 AES Decryption: <code>/aesdecrypt</code></h3>
                             <p><strong>Description:</strong> Decrypts an AES-encrypted message back to its original form.</p>
-                            <p><strong>Usage:</strong> <code>!aesdecrypt b8b36b08e8f4c18c3b5e3a8eec1c7b1a</code></p>
+                            <p><strong>Usage:</strong> <code>/aesdecrypt b8b36b08e8f4c18c3b5e3a8eec1c7b1a</code></p>
                             <p><strong>Example Output:</strong></p>
                             <pre><code>**AES Decryption**
 Encrypted Message: b8b36b08e8f4c18c3b5e3a8eec1c7b1a
 Decrypted Message: Hello</code></pre>
 
-<h3>3.19 Data Analysis: <code>!analyze</code></h3>
+<h3>3.19 Data Analysis: <code>/analyze</code></h3>
 <p><strong>Description:</strong> Analyzes the input data for patterns, frequencies, or anomalies.</p>
-<p><strong>Usage:</strong> <code>!analyze Hello Hello</code></p>
+<p><strong>Usage:</strong> <code>/analyze Hello Hello</code></p>
 <p><strong>Example Output:</strong></p>
  <pre><code>**Data Analysis**
 Text: Hello Hello
@@ -249,12 +251,12 @@ o: 2</code></pre>
                     <section id="combo-command" class="wrapper style2 fade-up">
                         <div class="inner">
                             <h2>4. Combo Command</h2>
-                            <h3>4.1 Combo Encryption and Decryption: <code>!combo</code></h3>
+                            <h3>4.1 Combo Encryption and Decryption: <code>/combo</code></h3>
                             <p><strong>Description:</strong> This command allows you to combine multiple encryption, decryption, or hashing methods. Specify the methods in the order they should be applied, separated by commas.</p>
-                            <p><strong>Usage:</strong> <code>!combo &lt;method1,method2,...&gt; &lt;message&gt;</code></p>
-                            <p><strong>Example 1:</strong> <code>!combo ce,he HelloWorld</code></p>
+                            <p><strong>Usage:</strong> <code>/combo &lt;method1,method2,...&gt; &lt;message&gt;</code></p>
+                            <p><strong>Example 1:</strong> <code>/combo ce,he HelloWorld</code></p>
                             <p>Applies Caesar Cipher encryption followed by Base64 encoding.</p>
-                            <p><strong>Example 2:</strong> <code>!combo rs,sh HelloWorld</code></p>
+                            <p><strong>Example 2:</strong> <code>/combo rs,sh HelloWorld</code></p>
                             <p>Applies Random Substitution Cipher followed by salted hashing.</p>
                             <p><strong>Example Output:</strong></p>
                             <pre><code>**Combined Encryption/Decryption**
@@ -284,7 +286,7 @@ Base64 Encoding: S2hvb3JacnVvZw==</code></pre>
                         <div class="inner">
                             <h2>5. Support and Issues</h2>
                             <p>If you encounter any issues or have questions about the bot, feel free to contact the bot administrator or leave feedback in the server.</p>
-                            <p>Thank you for using the <strong>Kowalski</strong>!</p>
+                            <p>Thank you for using the <strong>Kowalski</strong>/</p>
                         </div>
                     </section>
 
