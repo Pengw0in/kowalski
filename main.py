@@ -580,139 +580,139 @@ async def help_command(ctx):
     
     # Adding command explanations
     embed.add_field(
-        name="Morse Code Encryption (`!me`)", 
+        name="Morse Code Encryption (`/me`)", 
         value="Converts text to Morse code.\nUsage: `!me <message>`", 
         inline=False
     )
     
     embed.add_field(
-        name="Morse Code Decryption (`!md`)", 
+        name="Morse Code Decryption (`/md`)", 
         value="Converts Morse code back to text.\nUsage: `!md <morse>`", 
         inline=False
     )
     
     embed.add_field(
-        name="Caesar Cipher Encryption (`!ce`)", 
+        name="Caesar Cipher Encryption (`/ce`)", 
         value="Encrypts text using the Caesar Cipher.\nUsage: `!ce <message>`", 
         inline=False
     )
     
     embed.add_field(
-        name="Caesar Cipher Decryption (`!cd`)", 
+        name="Caesar Cipher Decryption (`/cd`)", 
         value="Decrypts a Caesar Cipher text.\nUsage: `!cd <encrypted_message>`", 
         inline=False
     )
     
     embed.add_field(
-        name="Binary Encryption (`!b2e`)", 
+        name="Binary Encryption (`/b2e`)", 
         value="Converts text to binary format.\nUsage: `!b2e <message>`", 
         inline=False
     )
     
     embed.add_field(
-        name="Binary Decryption (`!b2d`)", 
+        name="Binary Decryption (`/b2d`)", 
         value="Converts binary back to text.\nUsage: `!b2d <binary_message>`", 
         inline=False
     )
     
     embed.add_field(
-        name="Base64 Encryption (`!b64e`)", 
+        name="Base64 Encryption (`/b64e`)", 
         value="Encodes text using Base64.\nUsage: `!b64e <message>`", 
         inline=False
     )
     
     embed.add_field(
-        name="Base64 Decryption (`!b64d`)", 
+        name="Base64 Decryption (`/b64d`)", 
         value="Decodes a Base64-encoded message.\nUsage: `!b64d <encoded_message>`", 
         inline=False
     )
     
     embed.add_field(
-        name="Base16 (Hex) Encryption (`!b16e`)", 
+        name="Base16 (Hex) Encryption (`/b16e`)", 
         value="Encodes text using hexadecimal.\nUsage: `!b16e <message>`", 
         inline=False
     )
     
     embed.add_field(
-        name="Base16 (Hex) Decryption (`!b16d`)", 
+        name="Base16 (Hex) Decryption (`/b16d`)", 
         value="Decodes a hexadecimal-encoded message.\nUsage: `!b16d <encoded_hex>`", 
         inline=False
     )
     
     embed.add_field(
-        name="Vigenère Cipher Encryption (`!ve`)", 
+        name="Vigenère Cipher Encryption (`/ve`)", 
         value="Encrypts text using the Vigenère cipher.\nUsage: `!ve <key> <message>`", 
         inline=False
     )
     
     embed.add_field(
-        name="Vigenère Cipher Decryption (`!vd`)", 
+        name="Vigenère Cipher Decryption (`/vd`)", 
         value="Decrypts a Vigenère cipher text.\nUsage: `!vd <key> <encrypted_message>`", 
         inline=False
     )
     
     embed.add_field(
-        name="ROT13 Cipher (`!rot13`)", 
+        name="ROT13 Cipher (`/rot13`)", 
         value="Encrypts/Decrypts text using ROT13.\nUsage: `!rot13 <message>`", 
         inline=False
     )
     
     embed.add_field(
-        name="Reverse Text (`!reverse`)", 
+        name="Reverse Text (`/reverse`)", 
         value="Reverses the given text.\nUsage: `!reverse <message>`", 
         inline=False
     )
     
     embed.add_field(
-        name="MD5 Hashing (`!hashmd5`)", 
+        name="MD5 Hashing (`/hashmd5`)", 
         value="Generates an MD5 hash of the text.\nUsage: `!hashmd5 <message>`", 
         inline=False
     )
     
     embed.add_field(
-        name="SHA-256 Hashing (`!hashsha256`)", 
+        name="SHA-256 Hashing (`/hashsha256`)", 
         value="Generates a SHA-256 hash of the text.\nUsage: `!hashsha256 <message>`", 
         inline=False
     )
     
     embed.add_field(
-        name="Random Substitution Cipher (`!rsc`)", 
+        name="Random Substitution Cipher (`/rsc`)", 
         value="Encrypts text using a random substitution cipher.\nUsage: `!rsc <message>`", 
         inline=False
     )
     
     embed.add_field(
-        name="Salted Hashing (`!sh`)", 
+        name="Salted Hashing (`/sh`)", 
         value="Generates a salted SHA-256 hash of the text.\nUsage: `!sh <message>`", 
         inline=False
     )
     
     embed.add_field(
-        name="AES Encryption (`!AESe`)", 
+        name="AES Encryption (`/AESe`)", 
         value="Encrypts text using AES encryption.\nUsage: `!AESe <message>`", 
         inline=False
     )
     
     embed.add_field(
-        name="AES Decryption (`!AESd`)", 
+        name="AES Decryption (`/AESd`)", 
         value="Decrypts an AES-encrypted message.\nUsage: `!AESd <key> <token>`", 
         inline=False
     )
     
     embed.add_field(
-        name="Text & Frequency Analysis (`!analysis`)", 
+        name="Text & Frequency Analysis (`/analysis`)", 
         value="Performs a text and frequency analysis of the message.\nUsage: `!analysis <message>`", 
         inline=False
     )
     
     embed.add_field(
-        name="Hash Comparison (`!CH`)", 
+        name="Hash Comparison (`/CH`)", 
         value="Compares two hashes and calculates the similarity percentage.\nUsage: `!CH <hash1> <hash2>`", 
         inline=False
     )
     
     embed.add_field(
-        name="Combined Encryption/Decryption (`!combo`)", 
+        name="Combined Encryption/Decryption (`/combo`)", 
         value="Applies multiple encryption/decryption methods to the text.\nUsage: `!combo <method1,method2,...> <message>`", 
         inline=False
     )
