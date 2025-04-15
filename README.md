@@ -56,8 +56,8 @@ Output: Khoor
 
 ## Support
 For support or issues:
-- Discord:  [lohithsrikar00](https://discordapp.com/users/876134632905666621)
-- Email: lohithsrikar679@gmail.com
+- Discord:  [zenzzo.oo](https://discordapp.com/users/876134632905666621)
+- Email: zendexino@gmail.com
 
 ## Credits
 Template design by [HTML5 UP](http://html5up.net)
