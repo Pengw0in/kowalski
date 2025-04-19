@@ -5,10 +5,10 @@ A versatile Discord bot for message encryption, decryption, and analysis. Kowals
 ## Features
 
 - Multiple encryption/decryption methods
-- Message hashing capabilities
+- Message hashing
 - Text analysis tools
 - Combo commands for layered encryption
-- Salted hashing for secure data handling
+- Salted hashing
 
 ## Command Prefix
 All commands start with `/`
@@ -40,9 +40,10 @@ All commands start with `/`
 ### Analysis
 - `/analysis` - Text Analysis
 
-### Special Features
+### Special Feature
 - `/combo` - Combine multiple encryption methods
   Example: `/combo ce,he HelloWorld` (Caesar Cipher + Base64)
+#### NOTE: Some methods can be incompatible with each other during combination
 
 ## Examples
 
@@ -53,11 +54,6 @@ Output: .... . .-.. .-.. --- / .-- --- .-. .-.. -..
 /ce Hello
 Output: Khoor
 ```
-
-## Support
-For support or issues:
-- Discord:  [zenzzo.oo](https://discordapp.com/users/876134632905666621)
-- Email: zendexino@gmail.com
 
 ## Credits
 Template design by [HTML5 UP](http://html5up.net)
