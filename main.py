@@ -25,7 +25,7 @@ bot = commands.Bot(
 @bot.event
 async def on_ready():
     await bot.tree.sync()
-    custom_status = discord.CustomActivity(name="Encrypting Messages!")
+    custom_status = discord.CustomActivity(name="Encrypting your texts!")
     await bot.change_presence(status=discord.Status.online, activity=custom_status)
     print(f'We have logged in as {bot.user}')
 

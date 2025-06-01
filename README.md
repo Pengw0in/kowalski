@@ -1,6 +1,6 @@
 # Kowalski Bot
 
-A versatile Discord bot for message encryption, decryption, and analysis. Kowalski supports various encryption methods including Caesar Cipher, Base64, Morse code, and more.
+A Simple Discord bot for message encryption, decryption, and analysis. Kowalski supports various encryption methods including Caesar Cipher, Base64, Morse code, and more.
 
 ## Features
 
@@ -54,6 +54,5 @@ Output: .... . .-.. .-.. --- / .-- --- .-. .-.. -..
 /ce Hello
 Output: Khoor
 ```
-
-## Credits
-Template design by [HTML5 UP](http://html5up.net)
+---
+*NOTE: This bot will not receive any updates*
